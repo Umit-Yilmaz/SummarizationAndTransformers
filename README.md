@@ -11,9 +11,17 @@ This projects first aim is implement "Text Summarization With Transformers". The
    pip install -r requirements.txt
    ```
 
-2- Then implement create a directory which name is content and add PDF docs inside.
+2- Then implement create a directory which name is (example: content) content and add PDF docs inside, add file path to the function's paramter when the function is called.
 
 3- Run the script.
+
+```python
+
+# Usage
+summ = summarize_pdfs(content)
+print(summ)
+
+```
 
 ### Folder Path
 
@@ -61,9 +69,19 @@ Proje, metni elde etmek için PyPDF2'yi kullanıyor ve arkasındaki matematiğiy
 ```sh
    pip install -r requirements.txt
    ```
-2- Daha sonra content adında bir dizin oluşturun ve içine PDF dokümanlarını ekleyin.
+2- Daha sonra (örneğin content klasörü) content adında bir dizin oluşturun ve içine PDF dokümanlarını ekleyin. Ardından fonksiyonu çalıştırıken bu yolu belirtin.
 
 3- Komut dosyasını çalıştırın.
+
+
+```python
+
+# Usage
+summ = summarize_pdfs(content)
+print(summ)
+
+```
+
 
 ### Dosya Yolu
 
